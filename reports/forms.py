@@ -12,7 +12,7 @@ class ReportForm(forms.ModelForm):
             'summary',
             'image_url',
             'result',
-            'created_at',
+            #'created_at',
         ]
 
         labels = {
@@ -23,5 +23,5 @@ class ReportForm(forms.ModelForm):
             'summary': 'Summary',
             'image_url': 'Image URL',
             'result': 'Result',
-            'created_at': 'Created At',
+            #'created_at': 'Created At',
         }

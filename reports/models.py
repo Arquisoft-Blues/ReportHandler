@@ -8,7 +8,7 @@ class Report(models.Model):
     summary = models.TextField(blank=True, null=True)  # Permite textos largos, opcional
     image_url = models.URLField(blank=True, null=True)   # URL de la imagen, opcional
     result = models.CharField(max_length=50, blank=True, null=True)
-    created_at = models.DateTimeField(auto_now_add=True)    # Se asigna la fecha y hora de creación
+    #created_at = models.DateTimeField(auto_now_add=True)    # Se asigna la fecha y hora de creación
 
     def __str__(self):
         return self.name
